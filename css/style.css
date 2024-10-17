@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f7e5;
+    background-image: linear-gradient(#e9c074 1px, transparent 1px), linear-gradient(to right, #e9c074 1px, #e5e5f7 1px);
+    background-size: 40px 40px;
+    font-family: "Roboto Mono", monospace, sans-serif;
+    color: #283747;
+    padding: 10px
+}
+
+.wrapper {
+    border: 3px solid;
+    border-radius: 8%;
+    opacity: .85;
+    padding: 30px;
+    border-color: rgb(255, 255, 255);
+    gap: 10px;
+    background-color: #F5CB6C
+}
+
+.col {
+    float: left;
+    /* padding: 15px */
+    text-align: center;
+    max-height: 450px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+div {
+    padding: 10px;
+}
+
+
+#recipe-links-list > li {
+    margin:10px;
+    text-align: center;
+    background-color: #FFAED0;
+    list-style: none;
+    border: solid white;
+    border-radius: 10px;
+    padding:10px;
+    width: 80%;
+}
+
+li > a {
+    color: #9E69AA;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#list {
+    text-align:left;
+}
+
+img {
+    border-radius: 10px;
+    opacity: 1;
+}
+
+h1,
+h2 {
+    font-family: "Honk", system-ui;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+fieldset {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: azure;
+}
+
+legend {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: georgian;
+}
+
+ol {
+    list-style-type: lower-greek;
+}
+
+a {
+    color: #74A7E8;
+}

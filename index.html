@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natascha Haberl">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Roboto+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CA-CSS-Layout</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- HEADER CONTAINER -->
+        <div class="row">
+            <div class="col" style="width: 100%;">
+                <h1><span style="background-color:white; padding: 10px; border-radius: 10px; letter-spacing: 5px;">Horchata Recipe</span></h1>
+                <p style="font-size:80%; text-align: center;">
+                    Recipe adapted from Lauren Allen at <a href="https://tastesbetterfromscratch.com/horchata/">Tastes
+                        Better From Scratch</a>
+                </p>
+            </div>
+        </div>
+        <!-- ROW TWO -->
+        <div class="row">
+            <div id="list" class="col" style="width: 33%; ">
+                <h2>Links to Other Delicious Beverages</h2>
+                <ul id="recipe-links-list">
+                    <li><a href="https://www.loveandlemons.com/matcha-latte/">Matcha Latte</a></li>
+                    <li><a href="https://downshiftology.com/recipes/best-hot-chocolate/"> Hot Chocolate</a></li>
+                    <li><a href="https://www.lucismorsels.com/easy-cardamom-latte/">Cardamom Latte</a></li>
+                    <li><a href="https://www.gimmesomeoven.com/homemade-apple-cider/">Apple Cider</a></li>
+                    <li><a href="https://www.thehealthymaven.com/how-to-make-a-london-fog/">London Fog</a></li>
+                    <li><a href="https://stellanspice.com/champurrado/">Champurrado</a></li>
+                </ul>
+            </div>
+            <div class="col" style="width: 33%">
+                <figure>
+                    <img src="img/horchata-closeup.jpg" alt="birdeyes view of glass of horchata" style="width: 250px;">
+                    <figcaption style="font-size: 70%;">
+                        Photo by Charlotte May via <a href="https://www.pickpik.com/beverage-blur-cinnamon-sticks-close-up-cup-delicious-104746">Pexels</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col" style="width: 34%">
+                <h2>Conversion</h2>
+                <form>
+                    <input type="text" name="tablespoon" placeholder="Tablespoons"> = <input type="text" name="cup"
+                        placeholder="Cups">
+                </form>
+                <h2>Rate this recipe</h2>
+                <fieldset>
+                    <legend>What skill level is this recipe?</legend>
+                    <input type="radio" id="easy" name="rating" value="easy">
+                    <label for="easy">Easy</label>
+                    <input type="radio" id="intermediate" name="rating" value="intermediate">
+                    <label for="intermediate">Intermediate</label>
+                    <input type="radio" id="hard" name="rating" value="hard">
+                    <label for="hard">Hard</label>
+                </fieldset>
+            </div>
+        </div>
+        <!-- ROW THREE -->
+        <div class="row">
+            <div id="list" class="col" style="width: 33%">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1½ cups uncooked long grain rice</li>
+                    <li>2 cinnamon sticks</li>
+                    <li>4 cups of hot water</li>
+                    <li>2 cups of whole milk or almond milk</li>
+                    <li>2 tsp vanilla extract</li>
+                    <li>2 tsp ground cinnamon</li>
+                    <li>⅓ cup granulated sugar (add more to taste if needed)</li>
+                </ul>
+            </div>
+            <div id="list" class="col" style="width: 33%">
+                <h2>Tools</h2>
+                <ul>
+                    <li>Blender</li>
+                    <li>Large pitcher or container with lid</li>
+                    <li>Fine mesh strainer or cheesecloth</li>
+                </ul>
+            </div>
+            <div id="list" class="col" style="width: 34%">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>To a blender, add rice, 2 cups of hot water, and 2 Mexican cinnamon sticks.</li>
+                    <li>Blend until the rice and cinnamon sticks are roughly ground. Add the remaining water and
+                        blend
+                        again.
+                    </li>
+                    <li>Pour contents into a pitcher or container with a fitted lid and refrigerate overnight or for
+                        at
+                        least 8
+                        hours. </li>
+                    <li>Pour the rice mixture through a fine mesh strainer or cheesecloth, into a pitcher. Discard
+                        the
+                        rice.
+                    </li>
+                    <li>Stir in the milk, vanilla, cinnamon, and sugar (to your preference). Chill until ready to
+                        serve.
+                        Stir
+                        well
+                        before serving and serve over ice.</li>
+                </ol>
+            </div>
+        </div>
+        <hr>
+        <!-- FOOTER -->
+        <div class="row">
+            <div class="col" style="width: 100%; align-items: center;">
+                <a href="https://www.bellevuecollege.edu/" target="_blank" style="font-size: 70%; float: left;">Back to
+                    the main page</a>
+                <p style="font-size: 70%; float:right;">This page created as academic activity only</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
